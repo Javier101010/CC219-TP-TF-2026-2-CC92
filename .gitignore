@@ -1,0 +1,27 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dataset original sin comprimir (supera los 100 MB de GitHub); se sube data/pe_properties.csv.xz
+data/pe_properties.csv
+code/data/pe_properties.csv
+
+# Cachés de modelos y datos
+.cache/
+nltk_data/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Credenciales
+.env
+kaggle.json
